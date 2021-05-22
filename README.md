@@ -1,4 +1,4 @@
-# lottery-api
+# Sales Project
 
 <p align="center">
   <a href="https://www.youtube.com/channel/UCTHEnDuI2uIYeTwV4RR7nOA">
@@ -16,11 +16,11 @@
 </p>
 <p align="center">
 	<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/FelipeGadelha/lottery-api/maven">
-	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/FelipeGadelha/lottery-api?logo=GitHub&style=flat">
-	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/FelipeGadelha/lottery-api?logo=GitHub">
-	<img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/FelipeGadelha/lottery-api?logo=GitHub">
-	<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/FelipeGadelha/lottery-api?logo=GitHub">
-	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/FelipeGadelha/lottery-api?logo=GitHub">
+	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/FelipeGadelha/sales?logo=GitHub&style=flat">
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/FelipeGadelha/sales?logo=GitHub">
+	<img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/FelipeGadelha/sales?logo=GitHub">
+	<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/FelipeGadelha/sales?logo=GitHub">
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/FelipeGadelha/sales?logo=GitHub">
 </p>
 
 ## :heavy_check_mark:O que há neste documento
