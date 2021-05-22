@@ -3,7 +3,6 @@ import DataTable from 'components/DataTable';
 import DonutChart from 'components/DonutChart';
 import Footer from 'components/Footer';
 import NavBar from 'components/NavBar';
-import Home from 'pages/Home';
 
 function App() {
   return (
@@ -26,7 +25,6 @@ function App() {
         </div>
         <DataTable />
       </div>
-      <Home />
       <Footer />
     </>
   );
