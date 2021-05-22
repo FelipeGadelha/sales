@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:9.6
+    container_name: pg-store
+    environment:
+      - POSTGRES_DB=store
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - dev_data:/var/lib/postgresql
+      
+volumes:
+  dev_data:
