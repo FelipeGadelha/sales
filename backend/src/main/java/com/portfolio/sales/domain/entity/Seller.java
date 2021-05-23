@@ -1,4 +1,4 @@
-package com.portfolio.sales.domain.model;
+package com.portfolio.sales.domain.entity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,10 +17,11 @@ public class Seller {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	
 	private String name;
 	
-	@OneToMany
-	private List<Sale> sales = new ArrayList<>();	
+	@OneToMany(mappedBy = "seller")
+	private List<Sale> sales = new ArrayList<>();
 	
 	@Deprecated
 	public Seller() {}
@@ -49,5 +50,7 @@ public class Seller {
 	public List<Sale> getSales() {
 		return sales;
 	}
+
+	
 	
 }

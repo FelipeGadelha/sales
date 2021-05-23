@@ -3,9 +3,9 @@ version: '3.8'
 services:
   db:
     image: postgres:9.6
-    container_name: pg-store
+    container_name: pg-sales
     environment:
-      - POSTGRES_DB=store
+      - POSTGRES_DB=sales-db
       - POSTGRES_PASSWORD=password
       - POSTGRES_USER=postgres
     ports:
