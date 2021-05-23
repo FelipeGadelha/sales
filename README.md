@@ -1,4 +1,4 @@
-# Sales Project
+# Project Sales
 
 <p align="center">
   <a href="https://www.youtube.com/channel/UCTHEnDuI2uIYeTwV4RR7nOA">
@@ -15,7 +15,7 @@
       <img alt="Twitter" src="https://img.shields.io/twitter/follow/Felipe52956739?label=Follow%20%40Felipe52956739&logo=Twitter&style=flat"></a>
 </p>
 <p align="center">
-	<!-- <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/FelipeGadelha/lottery-api/maven"> -->
+	<img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/FelipeGadelha/sales/maven">
 	<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/FelipeGadelha/sales?logo=GitHub&style=flat">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/FelipeGadelha/sales?logo=GitHub">
 	<img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed/FelipeGadelha/sales?logo=GitHub">
