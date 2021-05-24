@@ -30,5 +30,10 @@
 - [Executando os testes](https://github.com/FelipeGadelha/lottery-api#executando-os-testes)
 - [Executando o projeto com Docker](https://github.com/FelipeGadelha/lottery-api#whaleexecutando-o-projeto-com-docker)
 
+## :sunny:Projetos publicados
+
+- [Netlify - frontend](https://felipe-gadelha-sales.netlify.app/)
+- [Heroku - backend](https://sales-felipe-gadelha.herokuapp.com/api/sales/)
+- [Swagger](https://sales-felipe-gadelha.herokuapp.com/api/sales/swagger-ui/index.html?configUrl=/api/sales/v3/api-docs/swagger-config)
 
 ## :speech_balloon:Missão deste projeto
