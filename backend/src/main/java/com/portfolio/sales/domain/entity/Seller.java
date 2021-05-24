@@ -2,6 +2,7 @@ package com.portfolio.sales.domain.entity;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Function;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -30,6 +31,10 @@ public class Seller {
 		this.id = id;
 		this.name = name;
 	}
+	
+    public <R> R map(Function<Seller, R> func) {
+        return func.apply(this);
+    }
 
 	public Long getId() {
 		return id;
