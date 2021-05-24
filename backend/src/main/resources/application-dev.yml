@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    name: SaleDataSource
+    driver-class-name: org.postgresql.Driver    
+    url: jdbc:postgresql://localhost:5432/sales-db
+    username: postgres
+    password: password
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      pool-name: salePool
+      connection-test-query: select now()
+      maximum-pool-size: 5
+      minimum-idle: 1
+      connection-timeout: 20000
+      idle-timeout: 10000
+  jpa:
+    open-in-view: true
+    generate-ddl: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+    properties:
+#      javax:
+#        persistence:
+#          schema-generation:
+#            create-source: metadata
+#            scripts:
+#              action: create
+#              create-target: create.sql
+      hibernate:
+#        hbm2ddl:
+#          delimiter:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+    show-sql: true
