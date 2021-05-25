@@ -1,4 +1,5 @@
 import Routes from 'Routes';
+import './global.css';
 
 function App() {
   return (
