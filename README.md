@@ -36,4 +36,14 @@
 - [Heroku - backend](https://sales-felipe-gadelha.herokuapp.com/api/sales/)
 - [Swagger](https://sales-felipe-gadelha.herokuapp.com/api/sales/swagger-ui/index.html?configUrl=/api/sales/v3/api-docs/swagger-config)
 
+## Comandos para fazer o Deploy no Heroku
+
+```shell
+  heroku -v
+  heroku login
+  heroku git:remote -a <nome-do-app>
+  git remote -v
+  git subtree push --prefix backend heroku main
+```
+
 ## :speech_balloon:Missão deste projeto
