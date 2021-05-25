@@ -13,7 +13,7 @@ public class SaleRs implements Serializable {
 	private Integer deals;
 	private Double amount;
 	private LocalDate date;
-	private SellerRs sellerRs;
+	private SellerRs seller;
 	
 	@Deprecated
 	public SaleRs() { }
@@ -24,7 +24,7 @@ public class SaleRs implements Serializable {
 		this.deals = deals;
 		this.amount = amount;
 		this.date = date;
-		this.sellerRs = sellerRs;
+		seller = sellerRs;
 	}
 
 	public <R> R map(Function<SaleRs, R> func) {
@@ -71,11 +71,11 @@ public class SaleRs implements Serializable {
 		this.date = date;
 	}
 	
-	public SellerRs getSellerRs() {
-		return sellerRs;
+	public SellerRs getSeller() {
+		return seller;
 	}
 	
-	public void setSellerRs(SellerRs sellerRs) {
-		this.sellerRs = sellerRs;
+	public void setSeller(SellerRs sellerRs) {
+		seller = sellerRs;
 	}
 }
